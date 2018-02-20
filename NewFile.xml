@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:NDFDgenResponse xmlns:ns1="uri:DWMLgen"><dwmlOut xsi:type="xsd:string">
+<dwml version="1.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.nws.noaa.gov/forecasts/xml/DWMLgen/schema/DWML.xsd">
+  <head>
+    <product srsName="WGS 1984" concise-name="time-series" operational-mode="official">
+      <title>NOAA&apos;s National Weather Service Forecast Data</title>
+      <field>meteorological</field>
+      <category>forecast</category>
+      <creation-date refresh-frequency="PT1H">2017-05-13T00:02:52Z</creation-date>
+    </product>
+    <source>
+      <more-information>http://www.nws.noaa.gov/forecasts/xml/</more-information>
+      <production-center>Meteorological Development Laboratory<sub-center>Product Generation Branch</sub-center></production-center>
+      <disclaimer>http://www.nws.noaa.gov/disclaimer.html</disclaimer>
+      <credit>http://www.weather.gov/</credit>
+      <credit-logo>http://www.weather.gov/images/xml_logo.gif</credit-logo>
+      <feedback>http://www.weather.gov/feedback.php</feedback>
+    </source>
+  </head>
+  <data>
+    <location>
+      <location-key>point1</location-key>
+      <point latitude="34.01" longitude="-91.84"/>
+    </location>
+    <moreWeatherInformation applicable-location="point1"></moreWeatherInformation>
+    <time-layout time-coordinate="local" summarization="none">
+      <layout-key>k-p24h-n8-1</layout-key>
+      <start-valid-time>2017-05-12T08:00:00-05:00</start-valid-time>
+      <end-valid-time>2017-05-12T20:00:00-05:00</end-valid-time>
+      <start-valid-time>2017-05-13T08:00:00-05:00</start-valid-time>
+      <end-valid-time>2017-05-13T20:00:00-05:00</end-valid-time>
+      <start-valid-time>2017-05-14T08:00:00-05:00</start-valid-time>
+      <end-valid-time>2017-05-14T20:00:00-05:00</end-valid-time>
+      <start-valid-time>2017-05-15T08:00:00-05:00</start-valid-time>
+      <end-valid-time>2017-05-15T20:00:00-05:00</end-valid-time>
+      <start-valid-time>2017-05-16T08:00:00-05:00</start-valid-time>
+      <end-valid-time>2017-05-16T20:00:00-05:00</end-valid-time>
+      <start-valid-time>2017-05-17T08:00:00-05:00</start-valid-time>
+      <end-valid-time>2017-05-17T20:00:00-05:00</end-valid-time>
+      <start-valid-time>2017-05-18T08:00:00-05:00</start-valid-time>
+      <end-valid-time>2017-05-18T20:00:00-05:00</end-valid-time>
+      <start-valid-time>2017-05-19T08:00:00-05:00</start-valid-time>
+      <end-valid-time>2017-05-19T20:00:00-05:00</end-valid-time>
+    </time-layout>
+    <time-layout time-coordinate="local" summarization="none">
+      <layout-key>k-p24h-n7-2</layout-key>
+      <start-valid-time>2017-05-12T20:00:00-05:00</start-valid-time>
+      <end-valid-time>2017-05-13T09:00:00-05:00</end-valid-time>
+      <start-valid-time>2017-05-13T20:00:00-05:00</start-valid-time>
+      <end-valid-time>2017-05-14T09:00:00-05:00</end-valid-time>
+      <start-valid-time>2017-05-14T20:00:00-05:00</start-valid-time>
+      <end-valid-time>2017-05-15T09:00:00-05:00</end-valid-time>
+      <start-valid-time>2017-05-15T20:00:00-05:00</start-valid-time>
+      <end-valid-time>2017-05-16T09:00:00-05:00</end-valid-time>
+      <start-valid-time>2017-05-16T20:00:00-05:00</start-valid-time>
+      <end-valid-time>2017-05-17T09:00:00-05:00</end-valid-time>
+      <start-valid-time>2017-05-17T20:00:00-05:00</start-valid-time>
+      <end-valid-time>2017-05-18T09:00:00-05:00</end-valid-time>
+      <start-valid-time>2017-05-18T20:00:00-05:00</start-valid-time>
+      <end-valid-time>2017-05-19T09:00:00-05:00</end-valid-time>
+    </time-layout>
+    <time-layout time-coordinate="local" summarization="none">
+      <layout-key>k-p3h-n41-3</layout-key>
+      <start-valid-time>2017-05-12T19:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-12T22:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-13T01:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-13T04:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-13T07:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-13T10:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-13T13:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-13T16:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-13T19:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-13T22:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-14T01:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-14T04:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-14T07:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-14T10:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-14T13:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-14T16:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-14T19:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-14T22:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-15T01:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-15T04:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-15T07:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-15T10:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-15T13:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-15T16:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-15T19:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-16T01:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-16T07:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-16T13:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-16T19:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-17T01:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-17T07:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-17T13:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-17T19:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-18T01:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-18T07:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-18T13:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-18T19:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-19T01:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-19T07:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-19T13:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-19T19:00:00-05:00</start-valid-time>
+    </time-layout>
+    <parameters applicable-location="point1">
+      <temperature type="maximum" units="Fahrenheit" time-layout="k-p24h-n8-1">
+        <name>Daily Maximum Temperature</name>
+        <value>72</value>
+        <value>78</value>
+        <value>83</value>
+        <value>86</value>
+        <value>86</value>
+        <value>83</value>
+        <value>85</value>
+        <value>86</value>
+      </temperature>
+      <temperature type="minimum" units="Fahrenheit" time-layout="k-p24h-n7-2">
+        <name>Daily Minimum Temperature</name>
+        <value>59</value>
+        <value>57</value>
+        <value>59</value>
+        <value>63</value>
+        <value>67</value>
+        <value>70</value>
+        <value>69</value>
+      </temperature>
+      <temperature type="dew point" units="Fahrenheit" time-layout="k-p3h-n41-3">
+        <name>Dew Point Temperature</name>
+        <value>64</value>
+        <value>62</value>
+        <value>60</value>
+        <value>58</value>
+        <value>57</value>
+        <value>56</value>
+        <value>56</value>
+        <value>56</value>
+        <value>56</value>
+        <value>55</value>
+        <value>55</value>
+        <value>55</value>
+        <value>55</value>
+        <value>55</value>
+        <value>56</value>
+        <value>57</value>
+        <value>59</value>
+        <value>58</value>
+        <value>57</value>
+        <value>56</value>
+        <value>56</value>
+        <value>58</value>
+        <value>59</value>
+        <value>60</value>
+        <value>61</value>
+        <value>60</value>
+        <value>59</value>
+        <value>61</value>
+        <value>61</value>
+        <value>61</value>
+        <value>62</value>
+        <value>64</value>
+        <value>66</value>
+        <value>67</value>
+        <value>67</value>
+        <value>67</value>
+        <value>67</value>
+        <value>66</value>
+        <value>65</value>
+        <value>67</value>
+        <value>67</value>
+      </temperature>
+      <temperature type="apparent" units="Fahrenheit" time-layout="k-p3h-n41-3">
+        <name>Apparent Temperature</name>
+        <value>70</value>
+        <value>66</value>
+        <value>62</value>
+        <value>60</value>
+        <value>59</value>
+        <value>67</value>
+        <value>74</value>
+        <value>78</value>
+        <value>75</value>
+        <value>66</value>
+        <value>61</value>
+        <value>58</value>
+        <value>57</value>
+        <value>68</value>
+        <value>78</value>
+        <value>82</value>
+        <value>81</value>
+        <value>69</value>
+        <value>64</value>
+        <value>61</value>
+        <value>60</value>
+        <value>71</value>
+        <value>82</value>
+        <value>85</value>
+        <value>82</value>
+        <value>68</value>
+        <value>64</value>
+        <value>84</value>
+        <value>82</value>
+        <value>70</value>
+        <value>67</value>
+        <value>82</value>
+        <value>82</value>
+        <value>72</value>
+        <value>70</value>
+        <value>84</value>
+        <value>83</value>
+        <value>72</value>
+        <value>70</value>
+        <value>87</value>
+        <value>86</value>
+      </temperature>
+    </parameters>
+  </data>
+</dwml>
+</dwmlOut></ns1:NDFDgenResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+# weather
+# weather
